@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>ENMP - Travel Agency Website</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="icon" type="image/png" href="http://www.wowphilippinestravelagency.com/images/favicon.png" />
+    <title>ENMP Travel Agency - Official Website Philippines</title>
+    <meta name="description" content="ENMP Travel Agency in Don Anotnio Drive Quezon City, Metro-Manila specializing in vacation packages, Hotel and Resort Reservations, and Flights to Boracay, Palawan, Bohol, Puerto Galera or International Places and over 100 other destinations." />
+    <meta name="keywords" content="enmp philippines, travel, travel agency, manila, TRAVEL, TRAVEL AGENCY, MANILA, Travel, Travel Agency, Manila" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -16,7 +17,7 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="images/logo3.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -32,12 +33,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt="logo" style = "height:40px; width:200px;"></a>
+                <a class="navbar-brand" href="index.html"><img src="images/home/logo.jpg" alt="logo" style = "height:40px; width:200px;"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="passporting.html">Passporting</a></li>
+                            <li><a href="domestic-ticketing.html">Domestic Ticketing</a></li>
+                            <li><a href="international-ticketing.html">International Ticketing</a></li>
+                            <li><a href="tour-packages.html">Tour Packages</a></li>
+                            <li><a href="pilgrimage-tours.html">Pilgrimage Tours</a></li>
+                            <li><a href="visa-assistance.html">Visa Assistance</a></li>
+                        </ul>
+                    </li>
                     <li><a href="portfolio.html">Gallery</a></li>
                     <li><a href="about-us.html">About Us</a></li>
                     <li><a href="contact-us.html">Contact</a></li>
@@ -58,8 +69,8 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content centered">
-                                   <h2 class="boxed animation animated-item-1">Lorem ipsum dolor sit amet, sit sumo</h2>
-                                    <p class="boxed animation animated-item-2">Id errem saepe mel, no sea dicam soleat, ei quo praesent deseruisse temporibus. Cetero minimum vis in. Altera scripta argumentum no vel</p>
+                                   <h2 class="boxed animation animated-item-1">Exploring the world in comfort</h2>
+                                    <p class="boxed animation animated-item-2">Creative Holidays - Create your kind of holiday, Enjoy the freedom, Dream. Explore. Discover, Awaken To A Different World</p>
                                 </div>
                             </div>
                         </div>
@@ -70,8 +81,8 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content centered">
-                                    <h2 class="boxed animation animated-item-1">Nec tollit appetere ceteros, eum unum vitae ad</h2>
-                                    <p class="boxed animation animated-item-2">Ut nibh lorem repudiare eos, ei elitr animal sea, mea probo eripuit consectetuer ex. cu quas appetere convenire</p>
+                                    <h2 class="boxed animation animated-item-1">Journeys as great as the destinations</h2>
+                                    <p class="boxed animation animated-item-2">Inspiring destinations within your reach, a different light, every day is different, Enjoy the freedom!</p>
                                 </div>
                             </div>
                         </div>
@@ -80,11 +91,11 @@
                 <div class="item" style="background-image: url(./images/slider/s3.jpg)">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-12">
                                 <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Cetero minimum vis in. Altera scripta</h2>
-                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
-                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
+                                    <h2 class="boxed animation animated-item-1">Big agency deals, Small agency feel</h2>
+                                    <p class="boxed animation animated-item-2">Eat, drink and be happy. Ride the rails!, unforgettable rail journeys, every day is different </p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -110,7 +121,7 @@
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">Domestic Flights</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <p>A domestic flight is a form of commercial flight within civil aviation where the departure and the arrival take place in the same country. Airports serving domestic flights only are known as domestic airports.</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -121,7 +132,7 @@
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">International Flights</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <p>An international flight is a form of commercial flight within civil aviation where the departure and the arrival take place in different countries.</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -129,12 +140,207 @@
         </div>
     </section><!--/#services-->
 
+    <div id="boracayModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Boracay</h4>
+          </div>
+          <div class="modal-body">
+            <p>Boracay is a small island in the Philippines located approximately 315 km south of Manila and 2 km off the northwest tip of Panay Island in Western Visayas region of the Philippines. Boracay Island and its beaches have received awards from numerous travel publications and agencies. The island comprises the barangays of Manoc-Manoc, Balabag, and Yapak in the municipality of Malay, in Aklan Province. The island is administered by the Philippine Tourism Authority and the provincial government of Aklan. Apart from its white sand beaches, Boracay is also famous for being one of the world's top destinations for relaxation. It is also emerging among the top destinations for tranquility and nightlife. In 2012, Boracay was awarded as the best island in the world from the international travel magazine Travel + Leisure. <a href = "https://en.wikipedia.org/wiki/Boracay" target = "_blank">Wikipedia</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="palawanModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Palawan</h4>
+          </div>
+          <div class="modal-body">
+            <p>Palawan is the largest island of the province of Palawan in the Philippines and the fifth largest island of the country. The northern coast of the island is along the South China Sea, while the southern coast forms part of the northern limit of the Sulu Sea. This island is very undeveloped and traditional. Abundant wildlife, jungle mountains, and white sandy beaches attract many tourists. Palawan, the only Philippine island cited, is rated by National Geographic Traveler magazine as the best island destination in East and Southeast Asia region in 2007, and the 13th best island in the world having "incredibly beautiful natural seascapes and landscapes. One of the most biodiverse islands in the Philippines. The island has had a Biosphere Reserve status since early 1990s, showing local interest for conservation and sustainable development". Iwahig Prison and Penal Farm, one of seven operating units of the Bureau of Corrections, is located on the island. In April 2013, a fishing vessel loaded with illegally poached animals ran aground on a coral atoll off the coast of Palawan Island. <a href = "https://en.wikipedia.org/wiki/Palawan_(island)" target = "_blank">Wikipedia</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="benguetModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Benguet</h4>
+          </div>
+          <div class="modal-body">
+            <p>Benguet, is a landlocked province of the Philippines located in the southern tip of the Cordillera Administrative Region in the island of Luzon. Its capital is La Trinidad. The highland province is known as the Salad Bowl of the Philippines due to its huge production of upland vegetables. Situated within the interior of Benguet is the highly urbanized city of Baguio, which is administratively independent from the province. <a href = "https://en.wikipedia.org/wiki/Benguet" target = "_blank">Wikipedia</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="parisModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Paris</h4>
+          </div>
+          <div class="modal-body">
+            <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré. <a href = "https://en.wikipedia.org/wiki/Paris" target = "_blank">Wikipedia</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="hongkongModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Hongkong Disneyland</h4>
+          </div>
+          <div class="modal-body">
+            <p>Hong Kong Disneyland is a theme park located on reclaimed land in Penny's Bay, Lantau Island. It is the first theme park located inside the Hong Kong Disneyland Resort and is owned and managed by the Hong Kong International Theme Parks <a href = "https://en.wikipedia.org/wiki/Hong_Kong_Disneyland" target = "_blank">Wikipedia</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="japanModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Japan</h4>
+          </div>
+          <div class="modal-body">
+            <p>Japan is an island nation in the Pacific Ocean with dense cities, imperial palaces, mountainous national parks and thousands of shrines and temples. Shinkansen bullet trains connect the main islands of Kyushu (with Okinawa's subtropical beaches), Honshu (home to Tokyo and Hiroshima’s atomic-bomb memorial) and Hokkaido (famous for skiing). Tokyo, the capital, is known for skyscrapers, shopping and pop culture. <a href = "https://en.wikipedia.org/wiki/Japan" target = "_blank">Wikipedia</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
     <section id="recent-works">
         <div class="container">
             <div class="row">
+                <div class = "top-destination">
+                    <h1 class = "text-center">TOP Destinations</h1>
+                        <div class="panel panel-default">
+                          <div class="panel-body">
+                            <center><h3>Local</h3></center>
+                            <div class = "col-md-4">
+                                <div class="panel panel-primary">
+                                  <div class="panel-heading">
+                                    <h3 class="panel-title">Boracay <a href = "#" data-toggle="modal" data-target="#boracayModal" class = "pull-right text text-default"><small style = "color:#e2e1e1;">view</small></a></h3>
+                                  </div>
+                                  <div class="panel-body" style="height:245px;">
+                                    <img src = "./images/home/boracay.jpg" class = "img-responsive"/>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class = "col-md-4">
+                                <div class="panel panel-primary">
+                                  <div class="panel-heading">
+                                    <h3 class="panel-title">Palawan <a href = "#" data-toggle="modal" data-target="#palawanModal" class = "pull-right text text-default"><small style = "color:#e2e1e1;">view</small></a></h3>
+                                  </div>
+                                  <div class="panel-body" style="height:245px;">
+                                    <img src = "./images/home/palawan.jpg" class = "img-responsive"/>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class = "col-md-4">
+                                <div class="panel panel-primary">
+                                  <div class="panel-heading">
+                                    <h3 class="panel-title">Benguet <a href = "#" data-toggle="modal" data-target="#benguetModal" class = "pull-right text text-default"><small style = "color:#e2e1e1;">view</small></a></h3>
+                                  </div>
+                                  <div class="panel-body" style="height:245px;">
+                                    <img src = "./images/home/benguet.png" class = "img-responsive"/>
+
+                                  </div>
+                                </div>
+                            </div>
+
+
+                            <center><h3>International</h3></center>
+                            <div class = "col-md-4">
+                                <div class="panel panel-primary">
+                                  <div class="panel-heading">
+                                    <h3 class="panel-title">Paris <a href = "#" data-toggle="modal" data-target="#parisModal" class = "pull-right text text-default"><small style = "color:#e2e1e1;">view</small></a></h3>
+                                  </div>
+                                  <div class="panel-body" style="height:245px;">
+                                    <img src = "./images/home/paris.jpg" class = "img-responsive"/>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class = "col-md-4">
+                                <div class="panel panel-primary">
+                                  <div class="panel-heading">
+                                    <h3 class="panel-title">Hongkong Disneyland <a href = "#" data-toggle="modal" data-target="#hongkongModal" class = "pull-right text text-default"><small style = "color:#e2e1e1;">view</small></a></h3>
+                                  </div>
+                                  <div class="panel-body" style="height:245px;">
+                                    <img src = "./images/home/hongkong.jpg" class = "img-responsive"/>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class = "col-md-4">
+                                <div class="panel panel-primary">
+                                  <div class="panel-heading">
+                                    <h3 class="panel-title">Japan <a href = "#" data-toggle="modal" data-target="#japanModal" class = "pull-right text text-default"><small style = "color:#e2e1e1;">view</small></a></h3>
+                                  </div>
+                                  <div class="panel-body" style="height:245px;">
+                                    <img src = "./images/home/japan.jpg" class = "img-responsive"/>
+
+                                  </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                </div>
+                <hr/>
                 <div class="col-md-3">
                     <h3>Our Services</h3>
                     <p>Please check some of our services offred</p>
+
                     <div class="btn-group">
                         <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
                         <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
